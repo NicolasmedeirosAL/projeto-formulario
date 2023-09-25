@@ -1,0 +1,397 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #80808029;
+}
+
+main {
+  font-family: 'Raleway';
+}
+
+header {
+width: 100%;
+display: flex;
+justify-content: center;
+
+height: 55px;
+background-color: #fff;
+}
+
+.limite-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+/* topo */
+
+.topo {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.topo-logo {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+.topo-titulo {
+  font-size: 24px;
+  color: #5d15d1;
+  margin-left: 10px;
+  font-family: 'Raleway';
+}
+
+/* form */
+
+.orcamento-fundo {
+  width: 100%;
+  height: auto;
+
+  background-image: url(/assets/imagens/bahia.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orcamento-area {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.orcamento-cabecalho {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5d15d1;
+}
+
+.orcamento-logo {
+  width: 20px;
+  height: 20px;
+  transform: rotate(-45deg);
+}
+
+.orcamento-descricao {
+  font-size: 14px;
+  color: #fff;
+  margin-left: 5px;
+}
+
+.orcamento-formulario {
+  width: 100%;
+  padding: 30px 25px 20px 25px;
+  background: #fff;
+}
+
+.orcamento-subtitulo {
+  font-size: 22px;
+  margin-bottom: 24px;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario label {
+  font-size: 16px;
+}
+
+.formulario input,
+.formulario select {
+  height: 32px;
+  width: 100%;
+
+  margin: 10px 0;
+}
+
+.formulario input {
+  padding: 0 5px;
+}
+
+.formulario select {
+  padding: 0 3px;
+}
+
+.formulario-campo-duplo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formulario-campo-duplo div {
+  width: calc(50% - 10px);
+}
+
+.radio {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.radio div {
+  display: flex;
+  align-items: center;
+  width: 120px;
+}
+
+.radio input {
+  width: 15px;
+}
+.radio label {
+  margin-left: 8px;
+
+}
+
+button {
+  width: 160px;
+  height: 32px;
+  margin-top: 12px;
+
+  background: #5d15d1;
+  color: #fff;
+  font-size: 16px;
+
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* sessão oferta */
+
+.ofertas,
+.natureza {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  margin: 32px auto;
+}
+
+.ofertas-titulo,
+.natureza-titulo {
+  font-size: 20px;
+
+  margin-bottom: 10px;
+}
+.ofertas-subtitulo,
+.natureza-subtitulo {
+  font-size: 16px;
+  font-weight: normal;
+
+  margin-bottom: 15px;
+}
+.ofertas-subtitulo span {
+  font-weight: bold;
+}
+
+.ofertas-imagens,
+.natureza-imagens {
+  width: 100%;
+  height: 375px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.ofertas-imagem-destaque {
+  position: relative;
+  width: calc(50% - 10px);
+  height: 100%;
+}
+
+.ofertas-quatro-imagens {
+  width: calc(50% - 10px);
+  height: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ofertas-quatro-imagens figure {
+  position: relative;
+  width: calc(50% - 10px);
+  height: calc(50% - 10px);
+}
+
+.ofertas-imagem-destaque img,
+.ofertas-quatro-imagens img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.ofertas-imagem-destaque figcaption,
+.ofertas-quatro-imagens figcaption {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  padding: 5px 10px;
+
+  background: rgb(0, 0, 0, 50%);
+  color: #fff;
+}
+/* sessão natureza */
+.natureza-duas-imagens {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.natureza-imagens {
+  width: calc(50% - 10px);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.natureza-imagens img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.natureza-imagens div {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  background: #fff;
+}
+
+.natureza-imagens p {
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  margin-top: 32px;
+  background-color: #5d15d1;
+}
+
+.rodape {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.rodape-conteudo {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 0;
+}
+
+.rodape-conteudo h2 {
+  color: #fff;
+  margin: 15px 0;
+  font-size: 20px;
+ 
+}
+
+.rodape-conteudo span {
+  color: #fff;
+  font-size: 14px;
+  margin-left: 10px;
+}
+.rodape-conteudo div {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+.rodape-conteudo img {
+  width: 18px;
+}
+
+
+/* mediaquerys */
+
+@media (max-width: 1100px) {
+  .limite-container {
+    width: 90%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  button {
+    width: 100%;
+  }
+
+  .ofertas-imagens {
+    flex-direction: column;
+    height: 100%;
+  }
+  .ofertas-imagem-destaque {
+    width: 100%;
+  }
+
+  .ofertas-quatro-imagens {
+    width: 100%;
+    
+    
+    
+  }
+  .ofertas-quatro-imagens figure {
+    width: 100%;
+    height: 225px;
+    object-fit: cover;
+    margin: 5px 0;
+  
+  }
+
+  .natureza-duas-imagens {
+    flex-direction: column;
+  }
+
+  .natureza-imagens {
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .rodape {
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  .rodape-conteudo {
+    width: 250px;
+  }
+
+
+}
+
+@media (max-width: 540px) {
+  .radio,
+  .formulario-campo-duplo{
+    display: flex;
+    flex-direction: column;
+  }
+ 
+  .formulario-campo-duplo div {
+    width: 100%;
+  }
+  
+}
